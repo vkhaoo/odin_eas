@@ -30,10 +30,31 @@ body {
 
 #ui {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 705px;
+}
+
+#button {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    gap: 16px;
+    border: 3px, solid, rgb(196, 211, 224);
+    height: 540px;
+    width: 270px;
+}
+
+#new {
+    background-color: rgb(206, 220, 233);
+    color: rgb(81, 92, 109);
+    font-weight: 900;
+    font-size: 24px;
+    box-sizing: border-box;
+    margin: 8px;
+    height: 100px;
+    width: 100px;
+    border-radius: 15px;
 }
 
 #gridContainer {
